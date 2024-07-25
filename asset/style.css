@@ -1,0 +1,58 @@
+body {
+    margin: 0px !important;
+    background-color: #ffd8a0;
+}
+
+.header {
+    background-color: #EF8A3F;
+    padding-bottom: 15px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+}
+
+.roboto-slab-font {
+    font-family: "Roboto Slab", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto Slab", serif;
+    color: #000;
+  }
+.banner img {
+    width: 100%;
+    height: 600px;
+    max-height: 800px;
+}
