@@ -1,6 +1,5 @@
 body {
     margin: 0px !important;
-    background-color: #ffd8a0;
 }
 
 .header {
@@ -42,6 +41,7 @@ body {
 .banner {
     position: relative;
     text-align: center;
+    background-color: #ffd8a0;
 }
 .centered {
     position: absolute;
@@ -55,4 +55,19 @@ body {
     width: 100%;
     height: 600px;
     max-height: 800px;
+}
+#curry,#Biryani
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto Slab", serif;
+}
+.box1, .box2
+{
+    flex: 1;
+    padding: 30px;
+}
+.color
+{
+    background-color: #ffd8a0;
 }
