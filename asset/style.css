@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     margin: 0px !important;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto Slab", serif !important;
 }
 
 .header {
@@ -56,6 +57,7 @@ body {
     font-family: "Roboto Slab", serif;
     color: #000;
 }
+
 .centered button {
     outline: 0px;
     border: 2px solid #fff;
@@ -65,10 +67,20 @@ body {
     font-size: 15px;
     padding: 8px;
 }
+
 .banner img {
     width: 100%;
     height: 600px;
     max-height: 800px;
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style:normal;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .flex-container {
@@ -78,7 +90,7 @@ body {
 }
 
 .box {
-    flex: 1;
+    flex: 2;
     padding: 30px;
 }
 
@@ -108,4 +120,16 @@ body {
 .box a {
     animation: blink 1s infinite;
     color: #000;
+}
+footer
+{
+    background-color: #000;
+}
+footer p 
+{
+    text-align: center;
+    color: #fff;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 25px;
 }

@@ -6,6 +6,10 @@
         max-width: 100%;
         flex-direction: row ;
     }
+    .banner h1 
+    {
+        font-size:32px;
+    }
     
 
 }
