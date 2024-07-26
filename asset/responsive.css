@@ -1,5 +1,11 @@
-@media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
+@media (max-width: 600px) {
+
+    
+    .box {
+        flex: 100%;
+        max-width: 100%;
+        flex-direction: row ;
     }
-  }
+    
+
+}

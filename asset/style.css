@@ -1,5 +1,6 @@
 body {
     margin: 0px !important;
+    font-family: "Roboto Slab", serif;
 }
 
 .header {
@@ -22,6 +23,7 @@ body {
 
 .menu ul {
     text-align: center;
+    padding-inline-start: 0px !important;
 }
 
 .menu ul li {
@@ -42,7 +44,10 @@ body {
     position: relative;
     text-align: center;
     background-color: #ffd8a0;
+    width: 100%;
+    height: auto;
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -50,30 +55,57 @@ body {
     transform: translate(-50%, -50%);
     font-family: "Roboto Slab", serif;
     color: #000;
-  }
+}
+.centered button {
+    outline: 0px;
+    border: 2px solid #fff;
+    background-color: #EF8A3F;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 8px;
+}
 .banner img {
     width: 100%;
     height: 600px;
     max-height: 800px;
 }
-#curry,#Biryani
-{
+
+.flex-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     font-family: "Roboto Slab", serif;
 }
-.box1, .box2
-{
+
+.box {
     flex: 1;
     padding: 30px;
 }
-.box1 > img
-{
+
+.box>img {
     width: 100%;
     height: auto;
 }
-.color
-{
+
+.color {
     background-color: #ffd8a0;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.box a {
+    animation: blink 1s infinite;
+    color: #000;
 }
